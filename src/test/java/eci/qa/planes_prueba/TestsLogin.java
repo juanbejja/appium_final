@@ -1,9 +1,5 @@
 package eci.qa.planes_prueba;
 
-import org.testng.annotations.Test;
-import org.testng.AssertJUnit;
-import org.testng.annotations.Test;
-import org.testng.AssertJUnit;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
@@ -37,16 +33,16 @@ public class TestsLogin extends Base {
 
 	@BeforeTest
 	public void killAllNodes() throws IOException, InterruptedException {
-		Runtime.getRuntime().exec("killall node");
+//		Runtime.getRuntime().exec("killall node");
 		Thread.sleep(3000);
 	}
 
 	@AfterTest
 	public void killProcess() throws IOException, InterruptedException {
-		Runtime.getRuntime().exec("killall node");
-		Runtime.getRuntime().exec("pkill adb");
-		Runtime.getRuntime().exec("pkill WebDriver");
-		Runtime.getRuntime().exec("pkill qemu-syst");
+//		Runtime.getRuntime().exec("killall node");
+//		Runtime.getRuntime().exec("pkill adb");
+//		Runtime.getRuntime().exec("pkill WebDriver");
+//		Runtime.getRuntime().exec("pkill qemu-syst");
 	}
 
 	@Test(dataProvider = "login")
