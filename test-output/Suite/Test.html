@@ -1,0 +1,144 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Mar 03 16:18:09 CET 2022</td>
+</tr>
+<tr><td>Total time:</td><td>651 seconds (651542 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='eci.qa.planes_prueba.TestsLogin.TC1799970()'><b>TC1799970</b><br>Test class: eci.qa.planes_prueba.TestsLogin<br>Parameters: {TC1799970={Usuario=m.garcia.rebollo@accenture.com, idIssue=1799970, Contrasena=Accenture}, TC1801563={Mensaje=Hemos enviado un e-mail a, Email=m.garcia.rebollo@accenture.com}, TC1801551={Usuario=m.garcia.rebollo@accenture.com, Contrasena=Accenture}, TC1801384={Usuario=m.garcia.rebollo@accenture.com, Contrasena=Accenture}, TC1801504={Mensaje=Lo sentimos, algunos de los datos no son correctos., Usuario=m.garcia.BEJAR@accenture.com, Contrasena=SJHDHASF}, TC1801514={Mensaje=No reconocemos este correo electrónico., Email=m.zoearg.rebollo@accenture.com}, TC1802108={Email=m.zoearg.rebollo}}</td>
+<td></td>
+<td>43</td>
+<td>eci.qa.planes_prueba.TestsLogin@4b14c583</td></tr>
+<tr>
+<td title='eci.qa.planes_prueba.TestsLogin.TC1801384()'><b>TC1801384</b><br>Test class: eci.qa.planes_prueba.TestsLogin<br>Parameters: {TC1799970={Usuario=m.garcia.rebollo@accenture.com, idIssue=1799970, Contrasena=Accenture}, TC1801563={Mensaje=Hemos enviado un e-mail a, Email=m.garcia.rebollo@accenture.com}, TC1801551={Usuario=m.garcia.rebollo@accenture.com, Contrasena=Accenture}, TC1801384={Usuario=m.garcia.rebollo@accenture.com, Contrasena=Accenture}, TC1801504={Mensaje=Lo sentimos, algunos de los datos no son correctos., Usuario=m.garcia.BEJAR@accenture.com, Contrasena=SJHDHASF}, TC1801514={Mensaje=No reconocemos este correo electrónico., Email=m.zoearg.rebollo@accenture.com}, TC1802108={Email=m.zoearg.rebollo}}</td>
+<td></td>
+<td>44</td>
+<td>eci.qa.planes_prueba.TestsLogin@4b14c583</td></tr>
+<tr>
+<td title='eci.qa.planes_prueba.TestsLogin.TC1801504()'><b>TC1801504</b><br>Test class: eci.qa.planes_prueba.TestsLogin<br>Parameters: {TC1799970={Usuario=m.garcia.rebollo@accenture.com, idIssue=1799970, Contrasena=Accenture}, TC1801563={Mensaje=Hemos enviado un e-mail a, Email=m.garcia.rebollo@accenture.com}, TC1801551={Usuario=m.garcia.rebollo@accenture.com, Contrasena=Accenture}, TC1801384={Usuario=m.garcia.rebollo@accenture.com, Contrasena=Accenture}, TC1801504={Mensaje=Lo sentimos, algunos de los datos no son correctos., Usuario=m.garcia.BEJAR@accenture.com, Contrasena=SJHDHASF}, TC1801514={Mensaje=No reconocemos este correo electrónico., Email=m.zoearg.rebollo@accenture.com}, TC1802108={Email=m.zoearg.rebollo}}</td>
+<td></td>
+<td>45</td>
+<td>eci.qa.planes_prueba.TestsLogin@4b14c583</td></tr>
+<tr>
+<td title='eci.qa.planes_prueba.TestsLogin.TC1801514()'><b>TC1801514</b><br>Test class: eci.qa.planes_prueba.TestsLogin<br>Parameters: {TC1799970={Usuario=m.garcia.rebollo@accenture.com, idIssue=1799970, Contrasena=Accenture}, TC1801563={Mensaje=Hemos enviado un e-mail a, Email=m.garcia.rebollo@accenture.com}, TC1801551={Usuario=m.garcia.rebollo@accenture.com, Contrasena=Accenture}, TC1801384={Usuario=m.garcia.rebollo@accenture.com, Contrasena=Accenture}, TC1801504={Mensaje=Lo sentimos, algunos de los datos no son correctos., Usuario=m.garcia.BEJAR@accenture.com, Contrasena=SJHDHASF}, TC1801514={Mensaje=No reconocemos este correo electrónico., Email=m.zoearg.rebollo@accenture.com}, TC1802108={Email=m.zoearg.rebollo}}</td>
+<td></td>
+<td>49</td>
+<td>eci.qa.planes_prueba.TestsLogin@4b14c583</td></tr>
+<tr>
+<td title='eci.qa.planes_prueba.TestsLogin.TC1801551()'><b>TC1801551</b><br>Test class: eci.qa.planes_prueba.TestsLogin<br>Parameters: {TC1799970={Usuario=m.garcia.rebollo@accenture.com, idIssue=1799970, Contrasena=Accenture}, TC1801563={Mensaje=Hemos enviado un e-mail a, Email=m.garcia.rebollo@accenture.com}, TC1801551={Usuario=m.garcia.rebollo@accenture.com, Contrasena=Accenture}, TC1801384={Usuario=m.garcia.rebollo@accenture.com, Contrasena=Accenture}, TC1801504={Mensaje=Lo sentimos, algunos de los datos no son correctos., Usuario=m.garcia.BEJAR@accenture.com, Contrasena=SJHDHASF}, TC1801514={Mensaje=No reconocemos este correo electrónico., Email=m.zoearg.rebollo@accenture.com}, TC1802108={Email=m.zoearg.rebollo}}</td>
+<td></td>
+<td>52</td>
+<td>eci.qa.planes_prueba.TestsLogin@4b14c583</td></tr>
+<tr>
+<td title='eci.qa.planes_prueba.TestsLogin.TC1801563()'><b>TC1801563</b><br>Test class: eci.qa.planes_prueba.TestsLogin<br>Parameters: {TC1799970={Usuario=m.garcia.rebollo@accenture.com, idIssue=1799970, Contrasena=Accenture}, TC1801563={Mensaje=Hemos enviado un e-mail a, Email=m.garcia.rebollo@accenture.com}, TC1801551={Usuario=m.garcia.rebollo@accenture.com, Contrasena=Accenture}, TC1801384={Usuario=m.garcia.rebollo@accenture.com, Contrasena=Accenture}, TC1801504={Mensaje=Lo sentimos, algunos de los datos no son correctos., Usuario=m.garcia.BEJAR@accenture.com, Contrasena=SJHDHASF}, TC1801514={Mensaje=No reconocemos este correo electrónico., Email=m.zoearg.rebollo@accenture.com}, TC1802108={Email=m.zoearg.rebollo}}</td>
+<td></td>
+<td>50</td>
+<td>eci.qa.planes_prueba.TestsLogin@4b14c583</td></tr>
+<tr>
+<td title='eci.qa.planes_prueba.TestsLogin.TC1802108()'><b>TC1802108</b><br>Test class: eci.qa.planes_prueba.TestsLogin<br>Parameters: {TC1799970={Usuario=m.garcia.rebollo@accenture.com, idIssue=1799970, Contrasena=Accenture}, TC1801563={Mensaje=Hemos enviado un e-mail a, Email=m.garcia.rebollo@accenture.com}, TC1801551={Usuario=m.garcia.rebollo@accenture.com, Contrasena=Accenture}, TC1801384={Usuario=m.garcia.rebollo@accenture.com, Contrasena=Accenture}, TC1801504={Mensaje=Lo sentimos, algunos de los datos no son correctos., Usuario=m.garcia.BEJAR@accenture.com, Contrasena=SJHDHASF}, TC1801514={Mensaje=No reconocemos este correo electrónico., Email=m.zoearg.rebollo@accenture.com}, TC1802108={Email=m.zoearg.rebollo}}</td>
+<td></td>
+<td>48</td>
+<td>eci.qa.planes_prueba.TestsLogin@4b14c583</td></tr>
+<tr>
+<td title='eci.qa.planes_prueba.TestsPerfil.TC1807970()'><b>TC1807970</b><br>Test class: eci.qa.planes_prueba.TestsPerfil<br>Parameters: {TC1808158={Usuario=m.garcia.rebollo@accenture.com, Contrasena=Accenture}, TC1807970={lblCorrecto=Si quieres tener acceso a tu perfil, inicia sesión o crea una cuenta.}, TC1807973={Usuario=m.garcia.rebollo@accenture.com, Contrasena=Accenture}, TC1807984={Usuario=m.garcia.rebollo@accenture.com, Contrasena=Accenture}, TC1807977={Usuario=m.garcia.rebollo@accenture.com, Contrasena=Accenture}, TC1807978={Usuario=m.garcia.rebollo@accenture.com, Contrasena=Accenture}}</td>
+<td></td>
+<td>47</td>
+<td>eci.qa.planes_prueba.TestsPerfil@5c909414</td></tr>
+<tr>
+<td title='eci.qa.planes_prueba.TestsPerfil.TC1807973()'><b>TC1807973</b><br>Test class: eci.qa.planes_prueba.TestsPerfil<br>Parameters: {TC1808158={Usuario=m.garcia.rebollo@accenture.com, Contrasena=Accenture}, TC1807970={lblCorrecto=Si quieres tener acceso a tu perfil, inicia sesión o crea una cuenta.}, TC1807973={Usuario=m.garcia.rebollo@accenture.com, Contrasena=Accenture}, TC1807984={Usuario=m.garcia.rebollo@accenture.com, Contrasena=Accenture}, TC1807977={Usuario=m.garcia.rebollo@accenture.com, Contrasena=Accenture}, TC1807978={Usuario=m.garcia.rebollo@accenture.com, Contrasena=Accenture}}</td>
+<td></td>
+<td>54</td>
+<td>eci.qa.planes_prueba.TestsPerfil@5c909414</td></tr>
+<tr>
+<td title='eci.qa.planes_prueba.TestsPerfil.TC1807977()'><b>TC1807977</b><br>Test class: eci.qa.planes_prueba.TestsPerfil<br>Parameters: {TC1808158={Usuario=m.garcia.rebollo@accenture.com, Contrasena=Accenture}, TC1807970={lblCorrecto=Si quieres tener acceso a tu perfil, inicia sesión o crea una cuenta.}, TC1807973={Usuario=m.garcia.rebollo@accenture.com, Contrasena=Accenture}, TC1807984={Usuario=m.garcia.rebollo@accenture.com, Contrasena=Accenture}, TC1807977={Usuario=m.garcia.rebollo@accenture.com, Contrasena=Accenture}, TC1807978={Usuario=m.garcia.rebollo@accenture.com, Contrasena=Accenture}}</td>
+<td></td>
+<td>55</td>
+<td>eci.qa.planes_prueba.TestsPerfil@5c909414</td></tr>
+<tr>
+<td title='eci.qa.planes_prueba.TestsPerfil.TC1807978()'><b>TC1807978</b><br>Test class: eci.qa.planes_prueba.TestsPerfil<br>Parameters: {TC1808158={Usuario=m.garcia.rebollo@accenture.com, Contrasena=Accenture}, TC1807970={lblCorrecto=Si quieres tener acceso a tu perfil, inicia sesión o crea una cuenta.}, TC1807973={Usuario=m.garcia.rebollo@accenture.com, Contrasena=Accenture}, TC1807984={Usuario=m.garcia.rebollo@accenture.com, Contrasena=Accenture}, TC1807977={Usuario=m.garcia.rebollo@accenture.com, Contrasena=Accenture}, TC1807978={Usuario=m.garcia.rebollo@accenture.com, Contrasena=Accenture}}</td>
+<td></td>
+<td>53</td>
+<td>eci.qa.planes_prueba.TestsPerfil@5c909414</td></tr>
+<tr>
+<td title='eci.qa.planes_prueba.TestsPerfil.TC1807984()'><b>TC1807984</b><br>Test class: eci.qa.planes_prueba.TestsPerfil<br>Parameters: {TC1808158={Usuario=m.garcia.rebollo@accenture.com, Contrasena=Accenture}, TC1807970={lblCorrecto=Si quieres tener acceso a tu perfil, inicia sesión o crea una cuenta.}, TC1807973={Usuario=m.garcia.rebollo@accenture.com, Contrasena=Accenture}, TC1807984={Usuario=m.garcia.rebollo@accenture.com, Contrasena=Accenture}, TC1807977={Usuario=m.garcia.rebollo@accenture.com, Contrasena=Accenture}, TC1807978={Usuario=m.garcia.rebollo@accenture.com, Contrasena=Accenture}}</td>
+<td></td>
+<td>47</td>
+<td>eci.qa.planes_prueba.TestsPerfil@5c909414</td></tr>
+<tr>
+<td title='eci.qa.planes_prueba.TestsPerfil.TC1808158()'><b>TC1808158</b><br>Test class: eci.qa.planes_prueba.TestsPerfil<br>Parameters: {TC1808158={Usuario=m.garcia.rebollo@accenture.com, Contrasena=Accenture}, TC1807970={lblCorrecto=Si quieres tener acceso a tu perfil, inicia sesión o crea una cuenta.}, TC1807973={Usuario=m.garcia.rebollo@accenture.com, Contrasena=Accenture}, TC1807984={Usuario=m.garcia.rebollo@accenture.com, Contrasena=Accenture}, TC1807977={Usuario=m.garcia.rebollo@accenture.com, Contrasena=Accenture}, TC1807978={Usuario=m.garcia.rebollo@accenture.com, Contrasena=Accenture}}</td>
+<td></td>
+<td>51</td>
+<td>eci.qa.planes_prueba.TestsPerfil@5c909414</td></tr>
+</table><p>
+</body>
+</html>

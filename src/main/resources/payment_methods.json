@@ -1,0 +1,88 @@
+{
+	"TC1802069": {
+		"email": "juan.soilan@accenture.com",
+		"password": "Accenture",
+		"cardNumber": "0100112168014",
+		"aliasName": "alias123",
+		"NIF": "50000830A",
+		"postalCode": "28039"
+	},
+	"TC1852022": {
+		"email": "juan.soilan@accenture.com",
+		"password": "Accenture",
+		"cardNumber": "4548819407777774",
+		"expireMonth": "12",
+		"expireYear": "49",
+		"cardCod": "111",
+		"CIP": "123456",
+		"aliasName": "visacard"
+	},
+	"TC1852170": {
+		"email": "juan.soilan@accenture.com",
+		"password": "Accenture",
+		"cardNumber": "7791100007662",
+		"PIN": "LFRMQ7",
+		"aliasName": "giftcard"
+	},
+	"TC1852156": {
+		"email": "juan.soilan@accenture.com",
+		"password": "Accenture",
+		"aliasModified": "aliasECIModified",
+		"aliasFirst": "CardECIQA"
+	},
+	"TC1852305": {
+		"email": "juan.soilan@accenture.com",
+		"password": "Accenture",
+		"cardNumber": "77441123217662",
+		"PIN": "213123",
+		"aliasName": "No existe"
+	},
+	"TC1852309": {
+		"email": "desarrollo.moonshine@gmail.com",
+		"password": "testeci0"
+	},
+	"TC1853359": {
+		"email": "desarrollo.moonshine@gmail.com",
+		"password": "testeci0"
+	},
+	"TC1853358": {
+		"email": "desarrollo.moonshine@gmail.com",
+		"password": "testeci0"
+	},
+	"TC1853500": {
+		"email": "desarrollo.moonshine@gmail.com",
+		"password": "testeci0",
+		"cardNumber": "7791100007662",
+		"PIN": "LFRMQ7"
+	},
+	"TC1853631": {
+		"email": "desarrollo.moonshine@gmail.com",
+		"password": "testeci0"
+	},
+	"TC1853597": {
+		"email": "juan.soilan@accenture.com",
+		"password": "Accenture"
+	},
+	"TC1855779": {
+		"email": "desarrollo.moonshine@gmail.com",
+		"password": "testeci0"
+	},
+	"TC1855770": {
+		"email": "desarrollo.moonshine@gmail.com",
+		"password": "testeci0"
+	},
+	"TC1855781": {
+		"email": "desarrollo.moonshine@gmail.com",
+		"password": "testeci0"
+	},
+	"TC1856011": {
+		"email": "desarrollo.moonshine@gmail.com",
+		"password": "testeci0"
+	},
+	"TC1856013": {
+		"email": "desarrollo.moonshine@gmail.com",
+		"password": "testeci0",
+		"cardNumber": "779142342007662",
+		"PIN": "LFR2433"
+	}
+}

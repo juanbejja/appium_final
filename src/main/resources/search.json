@@ -1,0 +1,39 @@
+{
+	"TC1804009": {
+		"email": "m.garcia.rebollo@accenture.com",
+		"password": "Accenture",
+		"busqueda": "CAMISETAS",
+		"entityId": "278746"
+	},
+	"TC1804002": {
+		"email": "m.garcia.rebollo@accenture.com",
+		"password": "Accenture",
+		"busqueda": "elemento123456",
+		"entityId": "278750"
+	},
+	"TC1804020": {
+		"email": "m.garcia.rebollo@accenture.com",
+		"password": "Accenture",
+		"busqueda": "La pirámide blanca (Tapa dura)",
+		"entityId": "278784"
+	},
+	"TC1804015": {
+		"email": "m.garcia.rebollo@accenture.com",
+		"password": "Accenture",
+		"busqueda": "La pirámide blanca (Tapa dura)",
+		"entityId": "278785"
+	},
+	"TC1804023": {
+		"email": "m.garcia.rebollo@accenture.com",
+		"password": "Accenture",
+		"busqueda": "Camiseta de hombre Real Madrid",
+		"entityId": "278783"
+	},
+	"TC1804029": {
+		"email": "m.garcia.rebollo@accenture.com",
+		"password": "Accenture",
+		"busqueda": "CAMISETA1234567",
+		"busquedaCaracter": "1",
+		"entityId": "278782"
+	}
+}

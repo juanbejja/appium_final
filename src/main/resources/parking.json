@@ -1,0 +1,28 @@
+{
+	"TC1908942": {
+		"Usuario": "desarrollo.moonshine@gmail.com",
+		"Contrasena": "testeci0",
+		"matricula": "5322GFD"
+	},
+	
+	"TC1920731": {
+		"Usuario": "desarrollo.moonshine@gmail.com",
+		"Contrasena": "testeci0",
+		"matricula": "NOBORRAR"
+	},
+	
+	"TC1929917": {
+		"Usuario": "prunft2020@yopmail.com",
+		"Contrasena": "12345678"
+	},
+	
+	"TC1930966": {
+		"Usuario": "desarrollo.moonshine@gmail.com",
+		"Contrasena": "testeci0"
+	},
+	
+	"TC1851610": {
+		"Usuario": "m.garcia.rebollo@accenture.com",
+		"Contrasena": "Accenture"
+	}
+}

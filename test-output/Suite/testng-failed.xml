@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="eci.qa.planes_prueba.TestsLogin">
+        <methods>
+          <include name="killAllNodes"/>
+          <include name="TC1801563" invocation-numbers="0"/>
+          <include name="killProcess"/>
+          <include name="TC1801514" invocation-numbers="0"/>
+          <include name="TC1802108" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- eci.qa.planes_prueba.TestsLogin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

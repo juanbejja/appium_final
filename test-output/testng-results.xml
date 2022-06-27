@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="7" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="110413" started-at="2022-06-27T17:10:34 CEST" finished-at="2022-06-27T17:12:25 CEST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="110413" started-at="2022-06-27T17:10:34 CEST" finished-at="2022-06-27T17:12:25 CEST">
+      <class name="eci.qa.planes_prueba.TestsLogin">
+        <test-method status="PASS" signature="killAllNodes()[pri:0, instance:eci.qa.planes_prueba.TestsLogin@38364841]" name="killAllNodes" is-config="true" duration-ms="3036" started-at="2022-06-27T17:10:34 CEST" finished-at="2022-06-27T17:10:37 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killAllNodes -->
+        <test-method status="PASS" signature="TC1799970(java.util.Map)[pri:0, instance:eci.qa.planes_prueba.TestsLogin@38364841]" name="TC1799970" duration-ms="107054" started-at="2022-06-27T17:10:38 CEST" data-provider="login" finished-at="2022-06-27T17:12:25 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TC1799970={Usuario=m.garcia.rebollo@accenture.com, idIssue=1799970, Contrasena=Accenture}, TC1801563={Mensaje=Hemos enviado un e-mail a, Email=m.garcia.rebollo@accenture.com}, TC1801551={Usuario=m.garcia.rebollo@accenture.com, Contrasena=Accenture}, TC1801384={Usuario=m.garcia.rebollo@accenture.com, Contrasena=Accenture}, TC1801504={Mensaje=Lo sentimos, algunos de los datos no son correctos., Usuario=m.garcia.BEJAR@accenture.com, Contrasena=SJHDHASF}, TC1801514={Mensaje=No reconocemos este correo electrónico., Email=m.zoearg.rebollo@accenture.com}, TC1802108={Email=m.zoearg.rebollo}}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1799970 -->
+        <test-method status="PASS" signature="killProcess()[pri:0, instance:eci.qa.planes_prueba.TestsLogin@38364841]" name="killProcess" is-config="true" duration-ms="40" started-at="2022-06-27T17:12:25 CEST" finished-at="2022-06-27T17:12:25 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killProcess -->
+      </class> <!-- eci.qa.planes_prueba.TestsLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
